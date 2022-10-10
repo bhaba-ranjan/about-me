@@ -49,52 +49,36 @@ class App extends Component {
         "bio": "I am a Computer Science graduate student Specializing in Machine Learning. Before starting my master's I was working as a Senior Software Developer. During this time, I worked closely with Data Science and Analytics teams. Being a tech geek, I got super fascinated after seeing the unparallel capabilities of ML/AI in action. During my time at the second company, I got an opportunity to work in a data ingestion project and collaborated directly with the Insight Management Team. This was the time I decided to make a career in ML and AI.",
         "bio2":"I am curretly seeking Internship opportunities in the field of Machine Leanring and AI. I want to work on challenging projects which will provide me a scope to Apply and Grow my skills at the same time.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-        "email": "youremailhere@gmail.com",
-        "phone": "555-555-5555",
+        "email": "bhabaranjan.cs@gmail.com",
+        "phone": "571-587-7120",
         "address": {
-          "street": "(Your Street)",
-          "city": "(Your City)",
-          "state": "(Your State)",
-          "zip": "(Your Zip/Postal Code)"
+          "street": "9451 Lee Highway",
+          "city": "Fairfax,",
+          "state": "Virginia",
+          "zip": "22031"
         },
-        "website": "http://www.timbakerdev.com",
-        "resumedownload": "http://timbakerdev.com",
         "social": [
           {
-            "name": "facebook",
-            "url": "http://facebook.com/tim.baker.906",
-            "className": "fa fa-facebook"
-          },
-          {
-            "name": "twitter",
-            "url": "http://twitter.com",
-            "className": "fa fa-twitter"
+            "name": "github",
+            "url": "https://github.com/bhaba-ranjan",
+            "className": "fa fa-github"
           },
           {
             "name": "linkedin",
-            "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+            "url": "https://www.linkedin.com/in/bhaba-ranjan/",
             "className": "fa fa-linkedin"
           },
-          {
-            "name": "instagram",
-            "url": "http://instagram.com/tbaker_x",
-            "className": "fa fa-instagram"
-          },
-          {
-            "name": "github",
-            "url": "http://github.com/tbakerx",
-            "className": "fa fa-github"
-          }
+                    
         ]
       },
       "resume": {
         "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
         "education": [
           {
-            "school": "University?",
-            "degree": "Masters in Beer tasting",
-            "graduated": "April 2007",
-            "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+            "school": "George Mason University",
+            "degree": "Masters of Science in Computer Science",
+            "graduated": "Aug 2022 - Dec 2023",
+            "description": ["1. Introduction to Artitifial Intelligence","adf","asdf"]
           },
           {
             "school": "School #1 Maybe College?",

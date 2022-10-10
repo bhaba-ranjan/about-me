@@ -4,15 +4,6 @@ class Header extends Component {
 
 
    componentDidMount = () =>{
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-         anchor.addEventListener('click', function (e) {
-             e.preventDefault();
-     
-             document.querySelector(this.getAttribute('href')).scrollIntoView({
-                 behavior: 'smooth'
-             });
-         });
-     });
      setTimeout(()=>{
       document.getElementById('aboutId').click()
      },2000)
