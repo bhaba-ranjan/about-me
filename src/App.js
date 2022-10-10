@@ -26,7 +26,7 @@ class App extends Component {
 
   // getResumeData(){
   //   $.ajax({
-  //     url:'/resumeData.json',
+  //     url:'https://drive.google.com/file/d/1KaFwIG-zANgSbnsI08rhkqndBwM1XTdb/view',
   //     dataType:'json',
   //     cache: false,
   //     success: function(data){
@@ -42,11 +42,12 @@ class App extends Component {
   componentDidMount(){
     this.setState({resumeData: JSON.parse(JSON.stringify({
       "main": {
-        "name": "Tim Baker",
+        "name": "Bhabaranjan Panigrahi",
         "occupation": "(Your Occupation Here)",
         "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
         "image": "profilepic.jpg",
-        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+        "bio": "I am a Computer Science graduate student Specializing in Machine Learning. Before starting my master's I was working as a Senior Software Developer. During this time, I worked closely with Data Science and Analytics teams. Being a tech geek, I got super fascinated after seeing the unparallel capabilities of ML/AI in action. During my time at the second company, I got an opportunity to work in a data ingestion project and collaborated directly with the Insight Management Team. This was the time I decided to make a career in ML and AI.",
+        "bio2":"I am curretly seeking Internship opportunities in the field of Machine Leanring and AI. I want to work on challenging projects which will provide me a scope to Apply and Grow my skills at the same time.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "youremailhere@gmail.com",
         "phone": "555-555-5555",

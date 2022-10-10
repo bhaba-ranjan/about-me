@@ -1,6 +1,22 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
+
+
+   componentDidMount = () =>{
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+         anchor.addEventListener('click', function (e) {
+             e.preventDefault();
+     
+             document.querySelector(this.getAttribute('href')).scrollIntoView({
+                 behavior: 'smooth'
+             });
+         });
+     });
+     setTimeout(()=>{
+      document.getElementById('aboutId').click()
+     },2000)
+   }
   render() {
 
     if(this.props.data){
@@ -24,7 +40,7 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a id = 'aboutId' className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
@@ -35,9 +51,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Hi! I'm {name}.</h1>
-            <h3>I'm a <span>{"Software Engineer"}</span>. {description} <span>{"ZopSmart"}</span> {description2} </h3>
-            <hr />
+            <h1 className="responsive-headline">Hi! I'm {name}.</h1>            
             <ul className="social">
                {networks}
             </ul>

@@ -5,8 +5,8 @@ class About extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var profilepic= "IMG.JPG";
-      var bio = this.props.data.bio;
+      var bio = this.props.data.bio;      
+      var bio2 = this.props.data.bio2;      
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -20,12 +20,13 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src="img.jpg" alt="Tim Baker Profile Pic" />
+            <img className="profile-pic"  src="https://assets.leetcode.com/users/bhabaranjan/avatar_1624277531.png" alt="Tim Baker Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p>{bio}
+            <p>{bio2}</p></p> 
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
@@ -40,7 +41,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href='https://drive.google.com/u/2/uc?id=1KaFwIG-zANgSbnsI08rhkqndBwM1XTdb&export=download' download='resume' className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
