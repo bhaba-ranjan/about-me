@@ -27,6 +27,9 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
+html {
+   scroll-behavior: smooth;
+ }
 
 header {
    position: relative;
@@ -148,9 +151,10 @@ header .scrolldown a:hover { color: #11ABB0; }
 ul#nav {
    min-height: 48px;
    width: auto;
-
+   background-color: #2B2B2A;
    /* center align the menu */
    text-align: center;
+   opacity: 0.9;
 }
 ul#nav li {
    position: relative;
