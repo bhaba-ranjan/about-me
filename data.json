@@ -1,46 +1,30 @@
 {
   "main": {
-    "name": "Tim Baker",
+    "name": "Bhabaranjan Panigrahi",
     "occupation": "(Your Occupation Here)",
     "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "I am a Computer Science graduate student Specializing in Machine Learning. Before starting my master's I was working as a Senior Software Developer. During this time, I worked closely with Data Science and Analytics teams. During my time at the second company, I got an oppornunity to work in a data ingestion project and collaborated directly with the Insight Management Team. I got facinated seeing the power of DL/AI in production. I always wanted to explore this field and this time I decided to make a career in ML and AI.",
+    "bio2": "  I am curretly seeking Internship opportunities in the field of Machine Leanring and AI. I want to work on challenging projects in a progressive organization which will provide me a scope to Apply and Grow my skills at the same time.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "bhabaranjan.cs@gmail.com",
+    "phone": "571-587-7120",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "9451 Lee Highway",
+      "city": "Fairfax,",
+      "state": "Virginia",
+      "zip": "22031"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
+        "name": "github",
+        "url": "https://github.com/bhaba-ranjan",
+        "className": "fa fa-github"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/bhaba-ranjan/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/tbakerx",
-        "className": "fa fa-github"
       }
     ]
   },
@@ -48,16 +32,20 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "George Mason University",
+        "degree": "Masters of Science in Computer Science",
+        "graduated": "Aug 2022 - Dec 2023",
+        "description": [
+          "Introduction to Artitifial Intelligence",
+          "Theory and Application of Data Mining",
+          "Analysis of Algorithms"
+        ]
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Veer Surendra Sai University of Techonlogy",
+        "degree": "Bachelor of Technology in Information Technology",
+        "graduated": "Aug 2018",
+        "description": []
       }
     ],
     "work": [
