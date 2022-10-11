@@ -17,7 +17,7 @@ class Contact extends Component {
     return (
       <section id="contact">
 
-         <div className="row section-head">
+         {/* <div className="row section-head">
 
             <div className="two columns header-col">
 
@@ -109,7 +109,7 @@ class Contact extends Component {
                   </ul>
 		         </div>
             </aside>
-      </div>
+      </div> */}
    </section>
     );
   }
