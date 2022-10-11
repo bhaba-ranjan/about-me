@@ -6,7 +6,7 @@ class Header extends Component {
    componentDidMount = () =>{
      setTimeout(()=>{
       document.getElementById('aboutId').click()
-     },2000)
+     },50)
    }
   render() {
 
