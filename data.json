@@ -96,46 +96,36 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Drug Discovery Neural Netowrk",
+        "category": "ANN",
+        "image": "Web-network.jpeg",
+        "url": "https://github.com/bhaba-ranjan/drug-discovery-ANN"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Drug Discovery Decision Tree",
+        "category": "Decision Trees",
+        "image": "drug-discovery.png",
+        "url": "https://github.com/bhaba-ranjan/drug-discovery"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "A work on Sentiment Analysis",
+        "category": "Project",
+        "image": "sentiment.jpeg",
+        "url": "https://github.com/bhaba-ranjan/sentiment-analysis"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Build your Website",
+        "category": "Template",
+        "image": "resume-website.png",
+        "url": "https://github.com/bhaba-ranjan/about-me"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "I worked with Bhabaranjan in my recent Roambee project where he contributed to my team as a UI developer. While developing Swarm AI SaaS application for the lane and asset visualization and intelligence, he provided much needed and valuable contribution to the project through his front-end architecture knowledge and impressive JavaScript/React coding experience. Notably, Bhabaranjan effectively integrated React-vis for several types of slicing and dicing capable analytical graphs. For, UI specific to IoT sensor geospatial data he integrated deck.gl, Kepler.gl, Mapbox, and Uber H3 libraries and developed several React components for our internal uses. If there was something he did not know, he learned quickly, and productize it. He is definitely an amazing frontend developer and overall a great teammate to build beautiful and effective UI. ",
+        "user": "Avkash Chauhan [Chief Customer Success Officer - Scribble Data]"
       }
     ]
   }
